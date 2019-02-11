@@ -1,0 +1,2 @@
+#define VERSION @MCL_VERSION1@
+#define COMPILED_BY "@COMPILED_BY@"

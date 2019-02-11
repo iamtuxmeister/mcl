@@ -1,0 +1,139 @@
+o/Alias.o: Alias.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/cui.h h/Window.h \
+  h/Numbered.h h/Label.h h/Selection.h h/Screen.h h/StatusLine.h \
+  h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h h/Alias.h \
+  h/Action.h h/Interpreter.h h/Session.h h/mccpDecompress.h h/Socket.h
+o/Borg.o: Borg.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/Borg.h h/cui.h \
+  h/Window.h h/Numbered.h h/Label.h h/Selection.h h/Screen.h \
+  h/StatusLine.h h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h
+o/Buffer.o: Buffer.cc h/defs.h h/Buffer.h
+o/Chat.o: Chat.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/cui.h h/Window.h \
+  h/Numbered.h h/Label.h h/Selection.h h/Screen.h h/StatusLine.h \
+  h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h h/Chat.h \
+  h/Socket.h h/Interpreter.h
+o/Config.o: Config.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/Action.h h/cui.h \
+  h/Window.h h/Numbered.h h/Label.h h/Selection.h h/Screen.h \
+  h/StatusLine.h h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h \
+  h/Alias.h h/Plugin.h h/Interpreter.h
+o/Curses.o: Curses.cc h/defs.h h/misc.h h/Curses.h h/Color.h
+o/Embedded.o: Embedded.cc h/mcl.h h/defs.h h/Color.h h/List.h \
+  h/Selectable.h h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h \
+  h/config.h h/misc.h h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h \
+  h/NullEmbeddedInterpreter.h h/Plugin.h
+o/Group.o: Group.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/cui.h h/Window.h \
+  h/Numbered.h h/Label.h h/Selection.h h/Screen.h h/StatusLine.h \
+  h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h
+o/Hotkey.o: Hotkey.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/cui.h h/Window.h \
+  h/Numbered.h h/Label.h h/Selection.h h/Screen.h h/StatusLine.h \
+  h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h h/Hotkey.h \
+  h/Control.h h/InputBox.h h/ScrollbackSearch.h h/Interpreter.h h/Alias.h \
+  h/Session.h h/mccpDecompress.h h/Socket.h h/Chat.h
+o/InputBox.o: InputBox.cc h/mcl.h h/defs.h h/Color.h h/List.h \
+  h/Selectable.h h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h \
+  h/config.h h/misc.h h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h \
+  h/cui.h h/Window.h h/Numbered.h h/Label.h h/Selection.h h/Screen.h \
+  h/StatusLine.h h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h \
+  h/InputBox.h
+o/InputLine.o: InputLine.cc h/mcl.h h/defs.h h/Color.h h/List.h \
+  h/Selectable.h h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h \
+  h/config.h h/misc.h h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h \
+  h/cui.h h/Window.h h/Numbered.h h/Label.h h/Selection.h h/Screen.h \
+  h/StatusLine.h h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h \
+  h/Interpreter.h
+o/Interpreter.o: Interpreter.cc h/mcl.h h/defs.h h/Color.h h/List.h \
+  h/Selectable.h h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h \
+  h/config.h h/misc.h h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h \
+  h/cui.h h/Window.h h/Numbered.h h/Label.h h/Selection.h h/Screen.h \
+  h/StatusLine.h h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h \
+  h/Option.h h/MessageWindow.h h/Interpreter.h h/Shell.h h/Action.h \
+  h/Alias.h h/Chat.h h/Socket.h h/Session.h h/mccpDecompress.h
+o/MUD.o: MUD.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/Alias.h \
+  h/Action.h
+o/Option.o: Option.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/Option.h
+o/OutputWindow.o: OutputWindow.cc h/mcl.h h/defs.h h/Color.h h/List.h \
+  h/Selectable.h h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h \
+  h/config.h h/misc.h h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h \
+  h/cui.h h/Window.h h/Numbered.h h/Label.h h/Selection.h h/Screen.h \
+  h/StatusLine.h h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h \
+  h/InputBox.h h/ScrollbackSearch.h
+o/Pipe.o: Pipe.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/Pipe.h h/cui.h \
+  h/Window.h h/Numbered.h h/Label.h h/Selection.h h/Screen.h \
+  h/StatusLine.h h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h \
+  h/Interpreter.h
+o/Screen.o: Screen.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/cui.h h/Window.h \
+  h/Numbered.h h/Label.h h/Selection.h h/Screen.h h/StatusLine.h \
+  h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h h/Curses.h \
+  h/Session.h h/mccpDecompress.h h/Socket.h
+o/Selectable.o: Selectable.cc h/mcl.h h/defs.h h/Color.h h/List.h \
+  h/Selectable.h h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h \
+  h/config.h h/misc.h h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h
+o/Selection.o: Selection.cc h/mcl.h h/defs.h h/Color.h h/List.h \
+  h/Selectable.h h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h \
+  h/config.h h/misc.h h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h \
+  h/Interpreter.h h/cui.h h/Window.h h/Numbered.h h/Label.h h/Selection.h \
+  h/Screen.h h/StatusLine.h h/OutputWindow.h h/InputLine.h h/Group.h \
+  h/MessageBox.h h/Alias.h
+o/Session.o: Session.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/cui.h h/Window.h \
+  h/Numbered.h h/Label.h h/Selection.h h/Screen.h h/StatusLine.h \
+  h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h h/Session.h \
+  h/mccpDecompress.h h/Socket.h h/Interpreter.h h/Action.h h/Alias.h \
+  h/Curses.h h/Chat.h
+o/Shell.o: Shell.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/cui.h h/Window.h \
+  h/Numbered.h h/Label.h h/Selection.h h/Screen.h h/StatusLine.h \
+  h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h h/Shell.h
+o/Socket.o: Socket.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/Socket.h
+o/StaticBuffer.o: StaticBuffer.cc h/StaticBuffer.h
+o/StatusLine.o: StatusLine.cc h/mcl.h h/defs.h h/Color.h h/List.h \
+  h/Selectable.h h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h \
+  h/config.h h/misc.h h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h \
+  h/cui.h h/Window.h h/Numbered.h h/Label.h h/Selection.h h/Screen.h \
+  h/StatusLine.h h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h
+o/String.o: String.cc h/defs.h h/String.h
+o/TTY.o: TTY.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/Curses.h h/cui.h \
+  h/Window.h h/Numbered.h h/Label.h h/Selection.h h/Screen.h \
+  h/StatusLine.h h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h
+o/Window.o: Window.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/cui.h h/Window.h \
+  h/Numbered.h h/Label.h h/Selection.h h/Screen.h h/StatusLine.h \
+  h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h \
+  h/MessageWindow.h h/ProxyWindow.h h/Curses.h
+o/main.o: main.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/cui.h h/Window.h \
+  h/Numbered.h h/Label.h h/Selection.h h/Screen.h h/StatusLine.h \
+  h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h h/Session.h \
+  h/mccpDecompress.h h/Socket.h h/Hotkey.h h/Control.h h/Pipe.h \
+  h/Interpreter.h h/Borg.h h/Curses.h h/Plugin.h h/Chat.h
+o/misc.o: misc.cc h/mcl.h h/defs.h h/Color.h h/List.h h/Selectable.h \
+  h/String.h h/MUD.h h/Config.h h/Buffer.h h/TTY.h h/config.h h/misc.h \
+  h/global.h h/EmbeddedInterpreter.h h/StaticBuffer.h h/cui.h h/Window.h \
+  h/Numbered.h h/Label.h h/Selection.h h/Screen.h h/StatusLine.h \
+  h/OutputWindow.h h/InputLine.h h/Group.h h/MessageBox.h
